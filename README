@@ -1,0 +1,2 @@
+compile with:
+g++ analogin_acquisition.cpp -o test.o -I /usr/include/digilent/waveforms -l dwf
