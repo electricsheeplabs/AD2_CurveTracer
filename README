@@ -4,3 +4,8 @@ current information are output to a file and can be plotted in gnuplot with the 
 of Waveforms software, compile code as per:
 
 g++ diodeCurveTracer.cpp -o diodeCurveTracer.o -I /usr/include/digilent/waveforms -l dwf
+
+Also, with gnuplot installed, you can plot the example data provided in the "data" folder by entering the directory in a terminal
+and "load 'plotter.plt'". 
+
+Finally, documentation for diode physics/working principles is in the other folder...
