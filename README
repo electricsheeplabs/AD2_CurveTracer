@@ -8,4 +8,4 @@ g++ diodeCurveTracer.cpp -o diodeCurveTracer.o -I /usr/include/digilent/waveform
 Also, with gnuplot installed, you can plot the example data provided in the "data" folder by entering the directory in a terminal
 and "load 'plotter.plt'". 
 
-Finally, documentation for diode physics/working principles is in the other folder...
+Finally, documentation for diode physics/working principles is in the "diodeInfo" folder.
