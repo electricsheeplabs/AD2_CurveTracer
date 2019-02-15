@@ -1,2 +1,6 @@
-compile with:
-g++ analogin_acquisition.cpp -o test.o -I /usr/include/digilent/waveforms -l dwf
+This repo contains an example C code for the Analog Discovery 2 that sweeps the programmable power supply voltage
+across a diode, and also measures the voltage across a series resistance to yield the current. The voltage and calculated
+current information are output to a file and can be plotted in gnuplot with the file in the repo. With default installation 
+of Waveforms software, compile code as per:
+
+g++ diodeCurveTracer.cpp -o diodeCurveTracer.o -I /usr/include/digilent/waveforms -l dwf
